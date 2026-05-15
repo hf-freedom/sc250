@@ -1,0 +1,12 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: hospital-triage-system
+
+triage:
+  schedule:
+    refresh-interval: 30000
+  late-threshold-minutes: 15
+  consultation-minutes: 15
